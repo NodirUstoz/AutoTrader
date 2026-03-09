@@ -1,0 +1,56 @@
+# Django
+Django==5.0.3
+djangorestframework==3.15.1
+django-cors-headers==4.3.1
+django-filter==24.1
+django-extensions==3.2.3
+
+# Authentication
+djangorestframework-simplejwt==5.3.1
+dj-rest-auth==6.0.0
+django-allauth==0.61.1
+
+# Database
+psycopg2-binary==2.9.9
+dj-database-url==2.1.0
+
+# Caching
+django-redis==5.4.0
+
+# Celery
+celery==5.3.6
+django-celery-beat==2.6.0
+django-celery-results==2.5.1
+
+# Elasticsearch
+elasticsearch==8.12.1
+elasticsearch-dsl==8.12.0
+django-elasticsearch-dsl==8.0
+django-elasticsearch-dsl-drf==0.22.5
+
+# Image handling
+Pillow==10.2.0
+django-imagekit==5.0.0
+
+# API documentation
+drf-spectacular==0.27.1
+
+# Server
+gunicorn==21.2.0
+
+# Utilities
+python-decouple==3.8
+requests==2.31.0
+python-dateutil==2.9.0
+
+# Code quality
+flake8==7.0.0
+black==24.2.0
+isort==5.13.2
+
+# Testing
+pytest==8.1.1
+pytest-django==4.8.0
+pytest-cov==4.1.0
+factory-boy==3.3.0
+faker==24.1.0
